@@ -1,0 +1,126 @@
+body{
+    background-color: rgb(40, 38, 48);
+}
+.table{
+    margin: 40px;
+    width: 90%;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.table2{
+    margin: 40px;
+    width: 45%;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+}
+.table3{
+    margin: 40px;
+    width: 25%;
+    height: 700px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+}
+
+.table div{
+    width: 231px;
+    height: 120px;
+    border-radius: 5px; 
+}
+.table2 div{
+    width: 231px;
+    height: 120px;
+    border-radius: 5px;
+}
+.table3 div{
+    width: 231px;
+    height: 120px;
+    border-radius: 5px; 
+}
+.superhero1{
+    background: rgb(194,110,208);
+    background: linear-gradient(0deg, rgba(194,110,208,1) 0%, rgba(0,84,255,1) 100%);
+}
+.superhero2{
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,17,3,1) 0%, rgba(255,3,3,1) 32%, rgba(255,170,3,1) 100%);
+}
+.superhero3{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(102,3,133,1) 100%);
+}
+
+.superhero4{
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,17,3,1) 100%);
+}
+img{
+    position: relative;
+}
+.superhero1 img{
+    bottom: 18px;
+    width: 90px;
+    left: 5px;
+}
+.superhero2 img{
+    bottom: 18px;
+    width: 110px;
+    left: 5px;
+}
+.superhero3 img{
+    bottom: 20px;
+    width: 85px;
+    left: 5px;
+}
+.superhero4 img{
+    transform: rotate(185deg);
+    bottom: -103px;
+    left: 5px;
+    width: 100px;
+}
+.text1{
+    position: relative;
+    bottom: 160px;
+    left: 50px;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+.text2{
+    position: relative;
+    bottom: 148px;
+    left: 50px;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    color: white;
+}
+.text3{
+    position: relative;
+    bottom: 160px;
+    left: 50px;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    color: white;
+}
+.text4{
+    position: relative;
+    bottom: 105px;
+    left: 50px;
+    width: 200px;
+    height: 10px;
+    text-align: center;
+    color: white;
+}
+
+
