@@ -1,47 +1,56 @@
 body{
     background-color: rgb(40, 38, 48);
+    
 }
 .table{
     margin: 40px;
-    width: 90%;
+    width: 1200px;
     height: 200px;
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
-.table2{
-    margin: 40px;
-    width: 45%;
-    height: 350px;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-evenly;
-    justify-content: space-evenly;
+@media screen and (min-width:1200px)
+ {
+    .table{
+        width: 1200px;
+        margin: 40px;
+        height: 200px;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-evenly;
+        justify-content: space-evenly;
+    }
 }
-.table3{
-    margin: 40px;
-    width: 25%;
-    height: 700px;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-evenly;
-    justify-content: space-evenly;
+@media screen and (max-width:1199px)
+{
+    .table{
+        width: 500px;
+        margin: 40px;
+        height: 350px;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-evenly;
+        justify-content: space-evenly;
+    }
 }
-
+@media screen and (max-width:500px)
+{
+    .table{
+        width: 300px;
+        margin: 40px;
+        height: 700px;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-evenly;
+        justify-content: space-evenly;
+    }
+}
 .table div{
-    width: 231px;
-    height: 120px;
-    border-radius: 5px; 
-}
-.table2 div{
-    width: 231px;
-    height: 120px;
-    border-radius: 5px;
-}
-.table3 div{
     width: 231px;
     height: 120px;
     border-radius: 5px; 
@@ -122,5 +131,4 @@ img{
     text-align: center;
     color: white;
 }
-
 
